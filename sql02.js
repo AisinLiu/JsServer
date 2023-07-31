@@ -23,6 +23,4 @@ async function fetchData() {
   }
 }
 
-// fetchData();
-
 module.exports.query2 = fetchData;
