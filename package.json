@@ -1,9 +1,13 @@
 {
-    "name" : "jsserver",
-    "description" : "test project",
+    "name": "jsserver",
+    "description": "test project",
     "version": "0.0.1",
     "private": true,
-    "devDependencies":{
-        "mysql" : "2.18.1"
+    "devDependencies": {
+        "mysql": "2.18.1"
+    },
+    "dependencies": {
+        "@google-cloud/recaptcha-enterprise": "^5.7.0",
+        "firebase-admin": "^12.1.0"
     }
 }
